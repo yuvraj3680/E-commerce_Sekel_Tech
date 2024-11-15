@@ -3,7 +3,7 @@ import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Header from '../Component/Header';
 import CartList from './CartList';
 import CartDetails from '../Component/CartDetails';
-import Cart from '../Component/Cart';
+import Cart from './ShoppingCart';
 
 const Layout = () => {
   return (
@@ -22,11 +22,11 @@ const Body = () => {
       children: [
         {
           path: '/',
-          element: <CartList />, // Renders CartList as the main page
+          element: <CartList />, 
         },
         {
           path: '/product/:id',
-          element: <CartDetails />, // Renders Cart component for individual product pages
+          element: <CartDetails />, 
         },
         {
           path: '/cart',

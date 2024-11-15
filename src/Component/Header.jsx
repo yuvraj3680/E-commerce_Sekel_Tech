@@ -12,11 +12,11 @@ const Header = () => {
   return (
     <div className="border-b border-gray-300">
       <div className="flex justify-between items-center px-4 py-2">
-        {/* Logo on the left */}
+        
         <div className="text-xl font-bold">
           Logo
         </div>
-        {/* Links on the right */}
+        
         <div>
           <ul className="flex gap-4 text-sm">
             <li>
