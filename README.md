@@ -38,6 +38,7 @@ Create a simple e-commerce application with the following main features:
 ## 🛠 Technologies Used
 
 - *React* - JavaScript library for building UI components
+- *Tailwind css* -Styling the UI
 - *Redux Toolkit* - State management
 - *Redux Persist* - Persists cart data across page reloads
 - *Vite* - Frontend tooling for fast development
